@@ -39,7 +39,7 @@ public class Interface extends JFrame {
 	private JLabel lblEndsymbol;
 	private JTextField txtEndsymbol;
 	private ButtonGroup groupRButtons;
-	private TypeOfAction typeAction;
+	private TypeOfAction typeAction = TypeOfAction.Divide;
 	private JLabel lblRegular;
 
 	public static void main(String[] args) {
